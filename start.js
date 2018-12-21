@@ -21,7 +21,8 @@ mongoose.connection.on('error', (err) => {
 
 // import all our models
 require('./models/Store');
-require('./models/user');
+require('./models/User');
+require('./models/Review');
 
 // Start our app!
 const app = require('./app');
